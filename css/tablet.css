@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.button__log{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: rotate(-30deg);
+    
+}
+
+.buttons{
+    max-width: 400px;
+}
+
+.button__log--in, .button__log--up{
+    max-width: 200px;
+}
+
+.button--shop{
+    max-width: 300px;
+    transform: rotate(-30deg);
+}
+
+.button--blog{
+    max-width: 300px;
+    transform: rotate(-30deg);
+}
+
+.button--contac{
+    max-width: 300px;
+    transform: rotate(-30deg);
+}
+
+
