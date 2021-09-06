@@ -6,7 +6,8 @@ body{
     display: flex;
     align-items: center;
     height: 80vh;
-    margin: 50px auto 70px
+    margin: 50px auto 70px;
+    
 }
 
 .title{
@@ -55,4 +56,6 @@ body{
     
 }
 
-
+.footer{
+    height: 10vh;
+}
