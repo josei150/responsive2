@@ -1,37 +1,58 @@
+body{
+    min-height: 650px;
+}
+
 .main{
     display: flex;
     align-items: center;
+    height: 80vh;
+    margin: 50px auto 70px
+}
+
+.title{
+    margin-left: 15px;
 }
 
 .button__log{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    transform: rotate(-30deg);
+    
     
 }
 
-.buttons{
-    max-width: 400px;
-}
 
 .button__log--in, .button__log--up{
     max-width: 200px;
 }
 
-.button--shop{
-    max-width: 300px;
+
+
+.button{
     transform: rotate(-30deg);
+    margin: 0;
+}
+
+.button__log--up{
+    margin-left: 40px;
+    
+}
+
+.button--shop{
+    max-width: 250px;
+    margin-left: 65px;
 }
 
 .button--blog{
     max-width: 300px;
-    transform: rotate(-30deg);
+    margin-top: 55px;
 }
 
 .button--contac{
     max-width: 300px;
-    transform: rotate(-30deg);
+    margin-top: 15px;
+    margin-left: 25px;
+    
 }
 
 
